@@ -28,7 +28,7 @@ constructor(props){
     
 }
 componentDidMount () {
-    this.socket = mySocket("https://chatappsamraj.herokuapp.com");
+    this.socket = mySocket("https://chatappsamraj.herokuapp.com/");
     
 }    
   
