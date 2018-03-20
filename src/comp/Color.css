@@ -1,0 +1,49 @@
+#button1{
+    
+   margin: 30px;
+ font-size: 18px;
+ height: 65px;
+ width: 250px;
+ border-radius: 10px;
+ border: none;
+ box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
+ background: rgb(141,217,252);
+  cursor: pointer;  
+    
+    
+}
+
+#button2{
+    
+   margin: 30px;
+ font-size: 18px;
+ height: 65px;
+ width: 250px;
+ border-radius: 10px;
+ border: none;
+ box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
+ background: rgb(200,100,100);
+  cursor: pointer;  
+    
+    
+}
+
+#button0{
+    
+   margin: 30px;
+ font-size: 18px;
+ height: 65px;
+ width: 250px;
+ border-radius: 10px;
+ border: none;
+ box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
+ background: rgb(100,100,100);
+  cursor: pointer;  
+    
+    
+}
+
+* {
+   font-family: 'Helvetica';
+  font-weight: 300;
+}
