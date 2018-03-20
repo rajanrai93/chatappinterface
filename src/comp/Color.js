@@ -54,7 +54,7 @@ class App extends Component {
         <button id="button1" onClick={() => this.setColor('blue')}>Blue</button>
         <button id="button2" onClick={() => this.setColor('red')}>Red</button>
         
-        <button onClick={this.enterTestPage}>ENTER TEST PAGE</button>
+        <button onClick={this.enterTestPage}>ENTER TESTS PAGE</button>
 
 
       </div>

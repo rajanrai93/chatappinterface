@@ -82,7 +82,13 @@ class App extends Component {
     
     } else if(this.state.ColorDisplay === true){
         mycomp = <Color enterTestPage={this.enterTestPage}/>;
+       
+    
         
+    }else if(this.state.TestDisplay === true){
+        mycomp = <Test />;
+       
+    
         
     }
 

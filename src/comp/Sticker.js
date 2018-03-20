@@ -133,7 +133,7 @@ class App extends Component {
                         <img src={this.state.myImg2} height={100} onClick={this.handleImage} />
                 
                 
-                <button onClick={this.enterColorPage}>ENTER COLOR PAGE</button>
+                <button onClick={this.enterColorPage}>ENTER Color PAGE</button>
                     </div>
                 
               
