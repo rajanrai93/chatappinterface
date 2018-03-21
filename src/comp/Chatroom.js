@@ -73,7 +73,7 @@ class Chatroom extends Component {
 
     if (this.state.mode === 0) {
       config = (
-        <div>
+        <div id='msgDiv'>
           <input type = "text" placeholder = "Type your username"
           onChange = {this.handleUsername} className="textInputs"/>
           <br/><br/>
@@ -94,7 +94,6 @@ class Chatroom extends Component {
         <div id="chatroomControls">
           <input type="text" placeholder="Type your message"
           onChange={this.handleMyMsg} className="textInputs"/>
-          <br/><br/>
           <button onClick={this.sendChat} className="chatroomButtons">Send</button>
 
           <br/><hr/><br/>
@@ -117,9 +116,9 @@ class Chatroom extends Component {
       <div>
 
         {config}
-        <hr/>
+
         <div id="allUsers">
-          Users in the chatroom right now
+          <h3>ACTIVE USERS</h3>
           <div id="users">
           {allUsers}
           </div>

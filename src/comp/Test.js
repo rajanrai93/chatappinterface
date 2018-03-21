@@ -69,7 +69,7 @@ class Test extends Component {
 	  
 	  if(this.state.stage === 0){
 	  comp2 = (
-	  	<div>
+	  	<div id='testA'>
 			<button onClick={this.handleStage.bind(this, 1, "room1")}>Room 1</button>
 			<button onClick={this.handleStage.bind(this, 1, "room2")}>Room 2</button>
 		</div>
@@ -77,7 +77,7 @@ class Test extends Component {
 	  );
 	  }else if(this.state.stage ===  1){
 		  comp2 = (
-	  	<div>
+	  	<div id='players'>
 			<button onClick={this.handlePlayers.bind(this, true)}>HOST</button>
 			<button onClick={this.handlePlayers.bind(this, false)}>PLAYER</button>
 		</div>
@@ -87,14 +87,16 @@ class Test extends Component {
 	  else if(this.state.stage === 2){
 		  if(this.state.host ===true){
 			  comp2 = (
-	  	<div>
+	  	<div id='quiz'>
 			<input ref="q" type="text" placeholder="Type your question here" />
 			<input ref="o1" type="text" placeholder="Option 1" />
 			<input ref="o2" type="text" placeholder="Option 2" />
+						<br />
 			<select ref="a">
 				  <option value="1">Option 1</option>
 				  <option value="2">Option 2</option>
 			</select>
+			<br />
 			<button onClick={this.handleQuestion}>Submit Question</button>
 		</div>  
 	  );

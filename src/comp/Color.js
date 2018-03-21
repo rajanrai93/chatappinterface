@@ -46,7 +46,7 @@ class App extends Component {
     })
 
     return (
-      <div style={{ textAlign: "center" }}>
+      <div id='colors' style={{ textAlign: "center" }}>
         <button id="button0" onClick={() => this.send() }>Change Color</button>
 
 
