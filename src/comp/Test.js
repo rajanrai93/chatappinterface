@@ -15,7 +15,7 @@ class Test extends Component {
 	
 
 	componentDidMount(){
-		this.socket = mySocket("https://dynacontsocket.herokuapp.com/");
+		this.socket = mySocket("https://chatappsamraj.herokuapp.com");
 		this.socket.on("newq", (data)=>{
 			this.setState({
 				qobj:data	
