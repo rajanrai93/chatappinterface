@@ -36,14 +36,14 @@ class Landing extends Component {
           <div className="enter">
 
         <div id="land">
-        <p>
+        
 
                A LIVE APP BY
   <br></br>
       <h2>RAJAN RAI &amp; SAM YEE.</h2>
   <br></br>
             <button onClick={this.enterChatroom} id="button1">ENTER</button>
-       </p>  
+         
 
          
                  </div>
