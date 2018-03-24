@@ -72,9 +72,9 @@ class App extends Component {
         
         this.socket.on("newmove", (data)=>{
             //console.log(data);
-           // this.refs["u"+data.id].style.left = data.x+"px";
-            //this.refs["u"+data.id].style.top = data.y+"px";
-            //this.refs["u"+data.id].src = data.src;
+            this.refs["u"+data.id].style.left = data.x+"px";
+            this.refs["u"+data.id].style.top = data.y+"px";
+            this.refs["u"+data.id].src = data.src;
             
         });
         
